@@ -141,8 +141,8 @@ int main(void)
 		}
 		wdt_reset();
 		/* Blink the notification led */
-		wdt_reset(); //Required so it doesn`t hang.
-		updateLed();
+		// wdt_reset(); //Required so it doesn`t hang.
+		// updateLed();
 	}
 
 	/* Exit to user application */

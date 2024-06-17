@@ -39,13 +39,13 @@
 	#define SS      PINB0  //Pin 53
 	/** Ethernet Shield SS pin */
 	#define ETH_DDR		DDRB
-	#define ETH_PORT	PORTB
-	#define ETH_SS		PINB4  //Pin 10
+	#define ETH_PORT	PORTJ
+	#define ETH_SS		PINJ3
 	/** SD card SS pin */
 	#define SD_DDR	DDRG
 	#define SD_PORT	PORTG
 	#define SD_SS	PING5  //Pin 04
-	/** Onboard LED is connected to pin PB7 on Arduino Mega */
+	/** Onboard LED */
 	#define LED_DDR     DDRB
 	#define LED_PORT    PORTB
 	#define LED         PINB7
